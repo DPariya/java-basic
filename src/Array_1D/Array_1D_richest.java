@@ -1,3 +1,5 @@
+package Array_1D;
+
 import java.util.Scanner;
 
 public class Array_1D_richest {
