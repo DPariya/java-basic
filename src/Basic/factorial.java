@@ -1,3 +1,5 @@
+package Basic;
+
 import java.util.Scanner;
 
 public class factorial {
@@ -7,10 +9,10 @@ public class factorial {
         // n = n! = n*(n-1)*(n-2)*(n-3).....*1 // until n becomes one
         int n = sc.nextInt();
         int fact = 1;
-        for(int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             fact *= i;
         }
 
-        System.out.println(fact );
+        System.out.println(fact);
     }
 }

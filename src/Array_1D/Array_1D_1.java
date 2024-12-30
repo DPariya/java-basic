@@ -1,6 +1,4 @@
 
-import java.util.Scanner;
-
 public class Array_1D_1 {
     public static void main(String[] args) {
 

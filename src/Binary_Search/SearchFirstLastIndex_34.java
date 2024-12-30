@@ -6,7 +6,7 @@ package Binary_Search;
 If target is not found in the array, return [-1, -1].
 You must write an algorithm with O(log n) runtime complexity.
  */
-public class Leetcode_34 {
+public class SearchFirstLastIndex_34 {
     public static void main(String[] args) {
         int[] nums = { 5, 7, 7, 8, 8, 10 };
         int target = 8;

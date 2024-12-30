@@ -1,3 +1,5 @@
+package Basic;
+
 public class ReverseUsingSB {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("hello");

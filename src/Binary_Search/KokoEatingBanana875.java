@@ -1,6 +1,6 @@
 package Binary_Search;
 
-public class KokoEatingBanana {
+public class KokoEatingBanana875 {
     public static void main(String[] args) {
         // input
         int[] piles = { 3, 6, 7, 11 };
