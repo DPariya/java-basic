@@ -2,6 +2,7 @@ package Array_2D;
 
 import java.util.Scanner;
 
+//demo of 2D array
 public class Array_2D {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,10 +1,23 @@
 package strings;
 
-public class Pangram {
+public class Pangram1832 {
     private String sentence;
 
-    public Pangram(String s) {
-        // TODO Auto-generated constructor stub
+    /*
+     * A pangram is a sentence where every letter of the English alphabet appears at
+     * least once.
+     * 
+     * Given a string sentence containing only lowercase English letters, return
+     * true if sentence is a pangram, or false otherwise.
+     * Example 1:
+     * 
+     * Input: sentence = "thequickbrownfoxjumpsoverthelazydog"
+     * Output: true
+     * Explanation: sentence contains at least one of every letter of the English
+     * alphabet.
+     */
+    public Pangram1832(String s) {
+
         this.sentence = s;
     }
 
@@ -33,7 +46,7 @@ public class Pangram {
 
     public static void main(String[] args) {
         String s = "The quick brown fox jumps over the lazy dog";
-        Pangram obj = new Pangram(s);
+        Pangram1832 obj = new Pangram1832(s);
         if (obj.isPangram()) {
             System.out.println("Pangram");
         } else {
